@@ -1,0 +1,785 @@
+Using pre-set license
+Built from 'trunk' branch; Version is '6000.0.16f1 (ae37dbaefed8) revision 11417563'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'pt' Physical Memory: 16237 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Hub\Editor\6000.0.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/Universidade/Rehacity/Reh@city 6
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+52234
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/Universidade/Rehacity/Reh@city 6
+D:/Universidade/Rehacity/Reh@city 6
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16076]  Target information:
+
+Player connection [16076]  * "[IP] 192.168.1.136 [Port] 0 [Flags] 2 [Guid] 1029890010 [EditorId] 1029890010 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S55B6S2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16076] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16076] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Library Redirect Path: Library/
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Refreshing native plugins compatible for Editor in 11.16 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.60 ms.
+Initialize engine version: 6000.0.16f1 (ae37dbaefed8)
+[Subsystems] Discovering subsystems at path D:/Unity/Hub/Editor/6000.0.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Universidade/Rehacity/Reh@city 6/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f0a)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   32.0.15.6109
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'D:/Unity/Hub/Editor/6000.0.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Hub/Editor/6000.0.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Hub/Editor/6000.0.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Hub/Editor/6000.0.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.026863 seconds.
+- Loaded All Assemblies, in  1.077 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.465 seconds
+Domain Reload Profiling: 1542ms
+	BeginReloadAssembly (689ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (212ms)
+		LoadAssemblies (687ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (194ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (466ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.544 seconds
+Refreshing native plugins compatible for Editor in 5.81 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.046 seconds
+Domain Reload Profiling: 8589ms
+	BeginReloadAssembly (4180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (3272ms)
+		LoadAssemblies (3053ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (347ms)
+			TypeCache.Refresh (221ms)
+				TypeCache.ScanAssembly (200ms)
+			BuildScriptInfoCaches (84ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (1046ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (744ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (533ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 5.40 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 389 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7945 unused Assets / (9.7 MB). Loaded Objects now: 8862.
+Memory consumption went from 295.1 MB to 285.4 MB.
+Total: 11.091700 ms (FindLiveObjects: 0.907000 ms CreateObjectMapping: 1.449800 ms MarkObjects: 4.753100 ms  DeleteObjects: 3.980800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 150368.630520 seconds.
+  path: Assets/Models/CityModels/NewCity/NewCity.fbm/monochromatic-urban-minimal-landscape.mat
+  artifactKey: Guid(75f52136429403748b11bc8f3d593488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CityModels/NewCity/NewCity.fbm/monochromatic-urban-minimal-landscape.mat using Guid(75f52136429403748b11bc8f3d593488) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0239abaf348af35bbfde9240fdc202cf') in 0.1836464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.165844 seconds.
+  path: Assets/Models/CityModels/NewCity/Materials/NewCity_1-GT_1FL_W7.jpg.mat
+  artifactKey: Guid(985ec5d67d71c4444a80302c07bbd3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CityModels/NewCity/Materials/NewCity_1-GT_1FL_W7.jpg.mat using Guid(985ec5d67d71c4444a80302c07bbd3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0c080bde89c7a6451a2fe47d9e3845dd') in 0.032811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 172.900292 seconds.
+  path: Assets/PREFABS_CITY/GT_1FL_W112 1.mat
+  artifactKey: Guid(ecb61e2aca5c5754bb5dad54a7e16b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS_CITY/GT_1FL_W112 1.mat using Guid(ecb61e2aca5c5754bb5dad54a7e16b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8862e1036c8bfe9ffd728405bdcca522') in 0.0572558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.627028 seconds.
+  path: Assets/PREFABS_CITY/GT_1FL_W1122 1.mat
+  artifactKey: Guid(ecb61e2aca5c5754bb5dad54a7e16b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS_CITY/GT_1FL_W1122 1.mat using Guid(ecb61e2aca5c5754bb5dad54a7e16b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '87e3b6ac5984ae180bae0274764ad4be') in 0.024947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 420.314370 seconds.
+  path: Assets/Models/CityModels/NewCity/Materials/BuildingsHighRise0042_3_L.mat
+  artifactKey: Guid(c1bd1c5df1a733a47b2514409e8d77a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CityModels/NewCity/Materials/BuildingsHighRise0042_3_L.mat using Guid(c1bd1c5df1a733a47b2514409e8d77a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '91a1a6f8c73cdc87d663647e136a05f5') in 0.1058605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 906.697245 seconds.
+  path: Assets/Models/CityModels/NewCity/NewCity.fbm/GT_1FL_W123.png
+  artifactKey: Guid(34a7a7117c727ad409ee6526bc5450b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CityModels/NewCity/NewCity.fbm/GT_1FL_W123.png using Guid(34a7a7117c727ad409ee6526bc5450b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0db132e8a8bc271639758e9ef6db2774') in 0.0316657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 146.242642 seconds.
+  path: Assets/Models/CityModels/NewCity/Materials/GT_1FL_W12.mat
+  artifactKey: Guid(5d0007f8714fb294db0663a003b0d41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CityModels/NewCity/Materials/GT_1FL_W12.mat using Guid(5d0007f8714fb294db0663a003b0d41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fc6d90775d1b90b5b5b530f51df5136e') in 0.0811579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.845854 seconds.
+  path: Packages/com.unity.memoryprofiler/Editor/UI/Icons/CSharpIcon.png
+  artifactKey: Guid(8e9968194303f76458a8d1f55f9fda9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.memoryprofiler/Editor/UI/Icons/CSharpIcon.png using Guid(8e9968194303f76458a8d1f55f9fda9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8b70183f55c4c94024e44505b9bf0e1b') in 0.0668755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048065 seconds.
+  path: Packages/com.unity.memoryprofiler/Editor/UI/Icons/CSharpIcon@3x.png
+  artifactKey: Guid(42c8f8082faf54746a221aa39de5d07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.memoryprofiler/Editor/UI/Icons/CSharpIcon@3x.png using Guid(42c8f8082faf54746a221aa39de5d07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e502e5b041b70a1f8a490c41ed63a05d') in 0.0301387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020657 seconds.
+  path: Packages/com.unity.memoryprofiler/Editor/UI/Icons/d_CSharpIcon.png
+  artifactKey: Guid(ed77b1f44ac82fc43a835a3d5b8b6522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.memoryprofiler/Editor/UI/Icons/d_CSharpIcon.png using Guid(ed77b1f44ac82fc43a835a3d5b8b6522) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '138b562858e054a3f24d39c0503928cd') in 0.0216489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043520 seconds.
+  path: Packages/com.unity.memoryprofiler/Editor/UI/Icons/d_CSharpIcon@2x.png
+  artifactKey: Guid(c712224179539164f9d6b771a6429d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.memoryprofiler/Editor/UI/Icons/d_CSharpIcon@2x.png using Guid(c712224179539164f9d6b771a6429d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '400a3ebe51619a5a81d4f7ae34ee5462') in 0.0275749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/Processed/d_RenderPipelineResources Icon.asset
+  artifactKey: Guid(f6437d4e6a2f10345a40803d33f489bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/Processed/d_RenderPipelineResources Icon.asset using Guid(f6437d4e6a2f10345a40803d33f489bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3e3103ca4832a6f2abf40a33d2b8a129') in 0.0932902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/d_RenderPipelineResources@32.png
+  artifactKey: Guid(4c30e5cf9793c0044a32b7aadd4f6f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/d_RenderPipelineResources@32.png using Guid(4c30e5cf9793c0044a32b7aadd4f6f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '63b09012f8dc2fff45cc576ce9eec4f5') in 0.0200639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/d_RenderPipelineResources@128.png
+  artifactKey: Guid(07d524f53c3f0a24b952dad4f0d95192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/d_RenderPipelineResources@128.png using Guid(07d524f53c3f0a24b952dad4f0d95192) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8d9efb8718dd9e77019f3f29716bf48c') in 0.006836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/d_RenderPipelineResources@256.png
+  artifactKey: Guid(76e81564bded5e442a18ce6964cdaef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/d_RenderPipelineResources@256.png using Guid(76e81564bded5e442a18ce6964cdaef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '249610908cc15e6ea004595e3d637a66') in 0.0254807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.486542 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Default Lens Flare (SRP).asset
+  artifactKey: Guid(bd7eaf3bd49c39f4cb77bd809459aa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Default Lens Flare (SRP).asset using Guid(bd7eaf3bd49c39f4cb77bd809459aa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f302a2019ce9b7ec868fbdfd35229bac') in 1.2158948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195537 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Generation/Targets/Fullscreen/Includes/FullscreenShaderPass.cs.hlsl
+  artifactKey: Guid(fa6980c25ec2f164ba4a6fcb040eb870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Generation/Targets/Fullscreen/Includes/FullscreenShaderPass.cs.hlsl using Guid(fa6980c25ec2f164ba4a6fcb040eb870) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3a58e2abb954186054a78fd18d833d1a') in 0.063736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.830011 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/d_Volume@32.png
+  artifactKey: Guid(675ff9ea9d96a004a85fc91680242734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/d_Volume@32.png using Guid(675ff9ea9d96a004a85fc91680242734) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e1f6743364f1028096936c96dca3e294') in 0.0459963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/d_Volume@128.png
+  artifactKey: Guid(d765b90a4ccbfae4ba0b8512144b99f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/d_Volume@128.png using Guid(d765b90a4ccbfae4ba0b8512144b99f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '697d3d05305cd51ed740afe7f6622ea6') in 0.0110013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014039 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/Processed/d_VolumeProfile Icon.asset
+  artifactKey: Guid(150de12d7eed3a2429509ab2146f6345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/Processed/d_VolumeProfile Icon.asset using Guid(150de12d7eed3a2429509ab2146f6345) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b48f2c686a4986023592c1e3639efcde') in 0.1620064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/d_VolumeProfile@128.png
+  artifactKey: Guid(98c28ecf0d815cc49b6868def3e52f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/d_VolumeProfile@128.png using Guid(98c28ecf0d815cc49b6868def3e52f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b611427f94a139b1968a27fbe7d85871') in 0.0077831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/d_VolumeProfile@64.png
+  artifactKey: Guid(2889bb1951831234789d947901bce53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/d_VolumeProfile@64.png using Guid(2889bb1951831234789d947901bce53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7cd5e75cfe1dac7b6c76db2ec6e9b7eb') in 0.0114646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/d_VolumeProfile@16.png
+  artifactKey: Guid(2e6a4056f58607f4cb9a7430cffd3cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/d_VolumeProfile@16.png using Guid(2e6a4056f58607f4cb9a7430cffd3cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c2349ef43fc03b4291a7eabbce270d9d') in 0.0097777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069834 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/UXML/DefaultVolumeProfileEditor.uxml
+  artifactKey: Guid(d0b4821bb729cd24fbbe0af5feaa73ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/UXML/DefaultVolumeProfileEditor.uxml using Guid(d0b4821bb729cd24fbbe0af5feaa73ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3d6a3a47c8f774cc9b612c7287a610fa') in 0.086818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090923 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard/GlobalVolumeProfile.asset
+  artifactKey: Guid(103b0616690034ca1a309e958ed431fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard/GlobalVolumeProfile.asset using Guid(103b0616690034ca1a309e958ed431fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '05bcce0a2088ad5a5faaf4d50cd919db') in 0.0255336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.374452 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeReferenceVolume.Debug.cs.hlsl
+  artifactKey: Guid(f6e06ceb4cc6a38458f4b614e8000dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeReferenceVolume.Debug.cs.hlsl using Guid(f6e06ceb4cc6a38458f4b614e8000dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '009ba7d3999f5482e906528633787bea') in 0.0287144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013209 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Resources/Gizmos/ProbeTouchupVolume.png
+  artifactKey: Guid(adc48c15b6dfb444b865f111178f02ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Resources/Gizmos/ProbeTouchupVolume.png using Guid(adc48c15b6dfb444b865f111178f02ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5182875c11144dbc4a769e0a3e0410da') in 0.0282325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolume.hlsl
+  artifactKey: Guid(688129ab15b222340a2c7fa427269889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolume.hlsl using Guid(688129ab15b222340a2c7fa427269889) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fbe187379756cacbe29e46bed8625e6c') in 0.0023912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.109637 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/Processed/d_Volume Icon.asset
+  artifactKey: Guid(177b2538515c71b4a86aa1cad939807a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/Processed/d_Volume Icon.asset using Guid(177b2538515c71b4a86aa1cad939807a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4ad2661a766db4135b2c1d6881ba0b52') in 0.0356095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.302750 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7a0a95b548006da59475ab556f1384e5') in 0.0125236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095890 seconds.
+  path: Assets/Settings/VolumeProfiles/DefaultVolumeProfile.asset
+  artifactKey: Guid(ac0c2cad5778d4544b6a690963e02fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/VolumeProfiles/DefaultVolumeProfile.asset using Guid(ac0c2cad5778d4544b6a690963e02fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4c9401919460e63e2eaebf84d4e4866f') in 0.0035006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008553 seconds.
+  path: Assets/Settings/Mobile_Renderer.asset
+  artifactKey: Guid(e4ba2da3a7aeb7b47b51bd71cbcfdb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Mobile_Renderer.asset using Guid(e4ba2da3a7aeb7b47b51bd71cbcfdb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7a2b9f227a1e456b87b6c87b55615436') in 4.8341151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Settings/VolumeProfiles/HighQualityVolumeProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/VolumeProfiles/HighQualityVolumeProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'bc3c2a976425c3df60efe0bcfbd85aa1') in 0.0024484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/ProbeVolumeCellDilation.compute
+  artifactKey: Guid(6bb382f7de370af41b775f54182e491d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/ProbeVolumeCellDilation.compute using Guid(6bb382f7de370af41b775f54182e491d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '81c0fad51dc3a4bacc5374e169684484') in 0.0243992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Settings/PC/PC_High_ScreenRenderer.asset
+  artifactKey: Guid(42b230d443c6d6c4b89c47f97db59121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/PC/PC_High_ScreenRenderer.asset using Guid(42b230d443c6d6c4b89c47f97db59121) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9ebf3590ec5a596ba900ee918bb53c4d') in 0.8328872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeBlendStates.hlsl
+  artifactKey: Guid(e478f7f7b57c7ab46a2933b408f63161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeBlendStates.hlsl using Guid(e478f7f7b57c7ab46a2933b408f63161) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c76c81c410698056f08a0a1e586e4786') in 0.024613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeBlendStates.compute
+  artifactKey: Guid(a3f7b8c99de28a94684cb1daebeccf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeBlendStates.compute using Guid(a3f7b8c99de28a94684cb1daebeccf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'df72679b0f2c12d867801d45df6f34eb') in 0.0175539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Settings/VolumeProfiles/LowQualityVolumeProfile.asset
+  artifactKey: Guid(f2d4d916a6612574cad220d125febbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/VolumeProfiles/LowQualityVolumeProfile.asset using Guid(f2d4d916a6612574cad220d125febbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '55f8e5206e8d438a3c83c2a757a856d2') in 0.0013011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeUploadDataCommon.hlsl
+  artifactKey: Guid(fb1453f13b855f444a8034b2db10ca61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeUploadDataCommon.hlsl using Guid(fb1453f13b855f444a8034b2db10ca61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '16ad7ca26075df4c40aa0b186a24086b') in 0.0016321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Settings/PC/PC_High_Renderer.asset
+  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/PC/PC_High_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '67a5941f48731e372d7a8f7da017bcc6') in 0.0495388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeUploadData.compute
+  artifactKey: Guid(0951de5992461754fa73650732c4954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeUploadData.compute using Guid(0951de5992461754fa73650732c4954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4ef69e72a0fc47ff653aa0fbed2533ea') in 0.0192807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Debug/ProbeVolumeSamplingDebugPositionNormal.compute
+  artifactKey: Guid(53626a513ea68ce47b59dc1299fe3959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Debug/ProbeVolumeSamplingDebugPositionNormal.compute using Guid(53626a513ea68ce47b59dc1299fe3959) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5d6aabba6a47c60a41e7d52f4d120642') in 0.0592734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/Volume@32.png
+  artifactKey: Guid(d35462a3f88c67241b7b7cd6dc624ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/Volume@32.png using Guid(d35462a3f88c67241b7b7cd6dc624ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f30d647bd64c931484e0b467fb4ee08c') in 0.0169446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeVolumeDebugBase.hlsl
+  artifactKey: Guid(0c0fc89bf58dc6d4590d0db55a62679e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeVolumeDebugBase.hlsl using Guid(0c0fc89bf58dc6d4590d0db55a62679e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e78e415dd6e776de5bb5438654274d47') in 0.0499425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/Rehacity/City FINAL/City_Profiles/Post Proces Volume Profile.asset
+  artifactKey: Guid(268134a9c3571d54788c978aca6945aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Rehacity/City FINAL/City_Profiles/Post Proces Volume Profile.asset using Guid(268134a9c3571d54788c978aca6945aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd12c75c0d62c2e19d8668669346b0171') in 0.2015052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/ProbeVolumeVariants.hlsl
+  artifactKey: Guid(4156fde60711cfd4c9cc05a737bd013e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/ProbeVolumeVariants.hlsl using Guid(4156fde60711cfd4c9cc05a737bd013e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd16b8e090e5875e57413baf504a87b8f') in 0.0664184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeUploadDataL2.compute
+  artifactKey: Guid(6196f34ed825db14b81fb3eb0ea8d931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeUploadDataL2.compute using Guid(6196f34ed825db14b81fb3eb0ea8d931) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6d7f85bd2629316226b92bc014d2e215') in 0.0240936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/Volume@256.png
+  artifactKey: Guid(b1737e8dd5ce0104ca1f1c05b481fad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/Volume@256.png using Guid(b1737e8dd5ce0104ca1f1c05b481fad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'cab3eed60d19d57f6a2c4707ca0008ae') in 0.0451147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DistanceGrab/Mesh/GrabConeVolume.asset
+  artifactKey: Guid(fcd019dc7c1f92140963033f1669ec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DistanceGrab/Mesh/GrabConeVolume.asset using Guid(fcd019dc7c1f92140963033f1669ec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'bb85ce14c2090b1978d76b2787b3ed4d') in 0.0734959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Settings/PC/PC_Low_Renderer.asset
+  artifactKey: Guid(13ba41cd2fa191f43890b271bd110ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/PC/PC_Low_Renderer.asset using Guid(13ba41cd2fa191f43890b271bd110ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '27a95f8c422c4fc1e6c391651e443565') in 0.0382947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/Volume@64.png
+  artifactKey: Guid(3e1119a71344058429824f48f89db02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/Volume@64.png using Guid(3e1119a71344058429824f48f89db02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '83bbd4cf8d057b94f7dc22cce17c2170') in 0.0295729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.549347 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/RenderPipelineResources@16.png
+  artifactKey: Guid(9204b01f48caab948aca3a4531851d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/RenderPipelineResources@16.png using Guid(9204b01f48caab948aca3a4531851d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a6d4062367166393915f6d7d3c07c575') in 0.0493575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075138 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/RenderPipelineResources@64.png
+  artifactKey: Guid(b1c49d259b9089743b6272150f77b8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/RenderPipelineResources@64.png using Guid(b1c49d259b9089743b6272150f77b8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '229ba136b673136de047bbcb9ce7f6fb') in 0.0106173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065147 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/RenderPipelineResources@256.png
+  artifactKey: Guid(b645d34d84db58a45ac9775bb9a9bc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/RenderPipelineResources@256.png using Guid(b645d34d84db58a45ac9775bb9a9bc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '23970aa055d837e13e009bad92a97cf8') in 0.0454391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/VolumeProfile@128.png
+  artifactKey: Guid(13d6273ce5597af4f841001aa751c423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/VolumeProfile@128.png using Guid(13d6273ce5597af4f841001aa751c423) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'bf92462ff38308fc6ed9a943f7836308') in 0.0153411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.204178 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_ground02ddfc8d7f3483abd.terrainlayer
+  artifactKey: Guid(92e63e2113e62ef44b117c9fba96980f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_ground02ddfc8d7f3483abd.terrainlayer using Guid(92e63e2113e62ef44b117c9fba96980f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fad70645c266467338f12e33b3c819cc') in 0.2809286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.722035 seconds.
+  path: Assets/Scenes/Rehacity/Settings
+  artifactKey: Guid(ff578ce045bd9934c872e92bde75d9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Rehacity/Settings using Guid(ff578ce045bd9934c872e92bde75d9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4199f24d9e6eaad5f4964ec465c1ffdc') in 0.0200922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.999503 seconds.
+  path: Assets/Scenes/Rehacity/City FINAL/City_Lithmaps
+  artifactKey: Guid(7f5eaec019a401e428f7d3b4729f24f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Rehacity/City FINAL/City_Lithmaps using Guid(7f5eaec019a401e428f7d3b4729f24f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a3e89ba630d2d2d8a8cea178d2a3928f') in 0.0006159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.459771 seconds.
+  path: Assets/Scenes/Rehacity/City FINAL/City_Lighting
+  artifactKey: Guid(7f5eaec019a401e428f7d3b4729f24f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Rehacity/City FINAL/City_Lighting using Guid(7f5eaec019a401e428f7d3b4729f24f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9273544629c567ac61f42642f54725ae') in 0.0009481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.324298 seconds.
+  path: Assets/Scenes/Rehacity/City FINAL/City_Profiles
+  artifactKey: Guid(922b1fcd21154334b94a61c8e6234e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Rehacity/City FINAL/City_Profiles using Guid(922b1fcd21154334b94a61c8e6234e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd6c946d03a4ecaf47f0093891f812fdd') in 0.0007099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.936479 seconds.
+  path: Assets/CITY/smallcity_vanessa.blend1
+  artifactKey: Guid(a5c571b27e6cffd4db0ce6daed111450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY/smallcity_vanessa.blend1 using Guid(a5c571b27e6cffd4db0ce6daed111450) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8f271c4684a0de0a7fbadbcc42da57d2') in 0.0042178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.224605 seconds.
+  path: Assets/CITY/Crosswalk_vanessa
+  artifactKey: Guid(ece8cd98916794c47a32991843125790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY/Crosswalk_vanessa using Guid(ece8cd98916794c47a32991843125790) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f45f54208dbd2b6b36ad78cd47dd7e57') in 0.0007055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 273.386211 seconds.
+  path: Assets/Scenes/Rehacity/City FINAL/City.unity
+  artifactKey: Guid(4eea447106c7fcb4c9ea65ec232a8059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Rehacity/City FINAL/City.unity using Guid(4eea447106c7fcb4c9ea65ec232a8059) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8731516b826f560a8f6c27c6c0a1f612') in 0.0007927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.760325 seconds.
+  path: Assets/Scenes/Rehacity_Vanessa
+  artifactKey: Guid(a3c5b016f6c09e647b0b91325bc32110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Rehacity_Vanessa using Guid(a3c5b016f6c09e647b0b91325bc32110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '649c58cce5678c1b2c9e94094ddce5f5') in 0.0005116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
